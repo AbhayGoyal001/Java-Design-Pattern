@@ -5,4 +5,5 @@ public class Client {
     User user = new  User.UserBuilder().setUserId("1").setUserName("Abhay").setEmail("abhay.com").build();
         System.out.println(user.toString());
     }
+
 }
